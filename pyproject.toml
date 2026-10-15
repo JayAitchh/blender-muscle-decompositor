@@ -1,0 +1,16 @@
+[project]
+name = "blender-muscle-decompositor"
+version = "1.0.0"
+description = "A Blender add-on for decomposing muscles into a set of fibers"
+authors = [
+    { name = "JayAitchh", email = "online@janheres.eu" }
+]
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "bpy==5.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.1",
+]
